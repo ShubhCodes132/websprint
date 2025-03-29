@@ -1,0 +1,137 @@
+div ul img{
+    height: 100px;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+header:hover{
+    cursor:pointer;
+}
+h2{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    font-family: Georgia;
+}
+div2 h2{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    font-family: Georgia;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 212, 235);
+    margin: 0px 50px 0px 50px;
+    padding: 10px;
+    position:static;
+    color: black;
+    border-radius: 10px ;
+}
+p div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+}
+.nav1{
+    background-color: #c8d9de;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+  }
+  .nav1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /*Aligning*/
+    justify-content: space-around;
+  }
+  .nav1 li{
+    display: inline;
+  }
+  .nav1 a{
+    text-decoration: none;
+    color: black;
+    background-color: beige;
+    padding: 5px 10px;
+    border-radius: 8px;
+    position: relative;
+  } 
+  .nav1 a::after{
+    content: "EXPLORE!";
+    content-visibility: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkcyan;
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .nav1 a:hover::after{
+    transform: scaleX(0.8);
+  }
+  .nav1 .login-btn{
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  div ul {
+    list-style-type: none;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    font-weight: bold;
+    padding: 50px;
+    background-color: lightskyblue;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  
+  .form {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcoral;
+    margin: 0;
+    padding: 0;
+    height: 20vh;
+    display: flex;
+    color: white;
+}
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(193, 225, 228);
+  }
+  button {
+    background-color: coral;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: aliceblue;
+  }
